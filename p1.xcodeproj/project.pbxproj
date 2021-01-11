@@ -3,19 +3,80 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4910C66025AC26E500B1CC8D /* SingerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4910C65F25AC26E500B1CC8D /* SingerView.swift */; };
+		4910C66925AC2FC900B1CC8D /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 4910C66825AC2FC900B1CC8D /* Kingfisher */; };
+		4910C67325AC3DB500B1CC8D /* MovieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4910C67225AC3DB500B1CC8D /* MovieView.swift */; };
+		4910C67725AC3EF200B1CC8D /* MovieResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4910C67625AC3EF200B1CC8D /* MovieResult.swift */; };
+		4910C67A25AC413400B1CC8D /* MovieRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4910C67925AC413400B1CC8D /* MovieRow.swift */; };
+		4910C67E25AC4A8A00B1CC8D /* MovieContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4910C67D25AC4A8A00B1CC8D /* MovieContent.swift */; };
+		4910C68825AC51BD00B1CC8D /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4910C68725AC51BD00B1CC8D /* WidgetKit.framework */; };
+		4910C68A25AC51BD00B1CC8D /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4910C68925AC51BD00B1CC8D /* SwiftUI.framework */; };
+		4910C68D25AC51BD00B1CC8D /* widget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4910C68C25AC51BD00B1CC8D /* widget.swift */; };
+		4910C69025AC51C000B1CC8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4910C68F25AC51C000B1CC8D /* Assets.xcassets */; };
+		4910C69225AC51C000B1CC8D /* widget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 4910C68E25AC51BD00B1CC8D /* widget.intentdefinition */; };
+		4910C69325AC51C000B1CC8D /* widget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 4910C68E25AC51BD00B1CC8D /* widget.intentdefinition */; };
+		4910C69625AC51C000B1CC8D /* widgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4910C68525AC51BD00B1CC8D /* widgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4931825925A9CD3C00E67750 /* SongRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4931825825A9CD3C00E67750 /* SongRow.swift */; };
+		4931825C25A9D06F00E67750 /* MusicContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4931825B25A9D06F00E67750 /* MusicContent.swift */; };
+		4931826625A9E5F800E67750 /* Shake It Off.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4931826525A9E5F800E67750 /* Shake It Off.mp3 */; };
+		4931826B25A9F40C00E67750 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4931826A25A9F40C00E67750 /* WebView.swift */; };
+		4931826E25A9F83400E67750 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4931826D25A9F83400E67750 /* PlayerView.swift */; };
 		49BD52D525A8A25100569A52 /* p1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BD52D425A8A25100569A52 /* p1App.swift */; };
 		49BD52D725A8A25100569A52 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BD52D625A8A25100569A52 /* ContentView.swift */; };
 		49BD52D925A8A25400569A52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49BD52D825A8A25400569A52 /* Assets.xcassets */; };
 		49BD52DC25A8A25400569A52 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49BD52DB25A8A25400569A52 /* Preview Assets.xcassets */; };
 		49BD52DE25A8A25400569A52 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BD52DD25A8A25400569A52 /* Persistence.swift */; };
 		49BD52E125A8A25400569A52 /* p1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 49BD52DF25A8A25400569A52 /* p1.xcdatamodeld */; };
+		49BD52EA25A8A40100569A52 /* SongView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BD52E925A8A40100569A52 /* SongView.swift */; };
+		49BD52EE25A8A5B400569A52 /* SongResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BD52ED25A8A5B400569A52 /* SongResult.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		4910C69425AC51C000B1CC8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49BD52C925A8A25100569A52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4910C68425AC51BD00B1CC8D;
+			remoteInfo = widgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4910C69A25AC51C000B1CC8D /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4910C69625AC51C000B1CC8D /* widgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		4910C65F25AC26E500B1CC8D /* SingerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingerView.swift; sourceTree = "<group>"; };
+		4910C67225AC3DB500B1CC8D /* MovieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieView.swift; sourceTree = "<group>"; };
+		4910C67625AC3EF200B1CC8D /* MovieResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieResult.swift; sourceTree = "<group>"; };
+		4910C67925AC413400B1CC8D /* MovieRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieRow.swift; sourceTree = "<group>"; };
+		4910C67D25AC4A8A00B1CC8D /* MovieContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieContent.swift; sourceTree = "<group>"; };
+		4910C68525AC51BD00B1CC8D /* widgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = widgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		4910C68725AC51BD00B1CC8D /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		4910C68925AC51BD00B1CC8D /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		4910C68C25AC51BD00B1CC8D /* widget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = widget.swift; sourceTree = "<group>"; };
+		4910C68E25AC51BD00B1CC8D /* widget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = widget.intentdefinition; sourceTree = "<group>"; };
+		4910C68F25AC51C000B1CC8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4910C69125AC51C000B1CC8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4931825825A9CD3C00E67750 /* SongRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongRow.swift; sourceTree = "<group>"; };
+		4931825B25A9D06F00E67750 /* MusicContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicContent.swift; sourceTree = "<group>"; };
+		4931826525A9E5F800E67750 /* Shake It Off.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Shake It Off.mp3"; sourceTree = "<group>"; };
+		4931826A25A9F40C00E67750 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		4931826D25A9F83400E67750 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
 		49BD52D125A8A25100569A52 /* p1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = p1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49BD52D425A8A25100569A52 /* p1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = p1App.swift; sourceTree = "<group>"; };
 		49BD52D625A8A25100569A52 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -24,23 +85,65 @@
 		49BD52DD25A8A25400569A52 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		49BD52E025A8A25400569A52 /* p1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = p1.xcdatamodel; sourceTree = "<group>"; };
 		49BD52E225A8A25400569A52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49BD52E925A8A40100569A52 /* SongView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongView.swift; sourceTree = "<group>"; };
+		49BD52ED25A8A5B400569A52 /* SongResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongResult.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		4910C68225AC51BD00B1CC8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4910C68A25AC51BD00B1CC8D /* SwiftUI.framework in Frameworks */,
+				4910C68825AC51BD00B1CC8D /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		49BD52CE25A8A25100569A52 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4910C66925AC2FC900B1CC8D /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4910C68625AC51BD00B1CC8D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4910C68725AC51BD00B1CC8D /* WidgetKit.framework */,
+				4910C68925AC51BD00B1CC8D /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4910C68B25AC51BD00B1CC8D /* widget */ = {
+			isa = PBXGroup;
+			children = (
+				4910C68C25AC51BD00B1CC8D /* widget.swift */,
+				4910C68E25AC51BD00B1CC8D /* widget.intentdefinition */,
+				4910C68F25AC51C000B1CC8D /* Assets.xcassets */,
+				4910C69125AC51C000B1CC8D /* Info.plist */,
+			);
+			path = widget;
+			sourceTree = "<group>";
+		};
+		4931826225A9E4FA00E67750 /* music */ = {
+			isa = PBXGroup;
+			children = (
+				4931826525A9E5F800E67750 /* Shake It Off.mp3 */,
+			);
+			path = music;
+			sourceTree = "<group>";
+		};
 		49BD52C825A8A25100569A52 = {
 			isa = PBXGroup;
 			children = (
 				49BD52D325A8A25100569A52 /* p1 */,
+				4910C68B25AC51BD00B1CC8D /* widget */,
+				4910C68625AC51BD00B1CC8D /* Frameworks */,
 				49BD52D225A8A25100569A52 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +152,7 @@
 			isa = PBXGroup;
 			children = (
 				49BD52D125A8A25100569A52 /* p1.app */,
+				4910C68525AC51BD00B1CC8D /* widgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,13 +160,25 @@
 		49BD52D325A8A25100569A52 /* p1 */ = {
 			isa = PBXGroup;
 			children = (
+				4931826225A9E4FA00E67750 /* music */,
 				49BD52D425A8A25100569A52 /* p1App.swift */,
 				49BD52D625A8A25100569A52 /* ContentView.swift */,
+				49BD52E925A8A40100569A52 /* SongView.swift */,
+				4910C67225AC3DB500B1CC8D /* MovieView.swift */,
+				4931825B25A9D06F00E67750 /* MusicContent.swift */,
+				4910C67D25AC4A8A00B1CC8D /* MovieContent.swift */,
+				4910C65F25AC26E500B1CC8D /* SingerView.swift */,
 				49BD52D825A8A25400569A52 /* Assets.xcassets */,
 				49BD52DD25A8A25400569A52 /* Persistence.swift */,
 				49BD52E225A8A25400569A52 /* Info.plist */,
 				49BD52DF25A8A25400569A52 /* p1.xcdatamodeld */,
 				49BD52DA25A8A25400569A52 /* Preview Content */,
+				49BD52ED25A8A5B400569A52 /* SongResult.swift */,
+				4931825825A9CD3C00E67750 /* SongRow.swift */,
+				4931826A25A9F40C00E67750 /* WebView.swift */,
+				4931826D25A9F83400E67750 /* PlayerView.swift */,
+				4910C67625AC3EF200B1CC8D /* MovieResult.swift */,
+				4910C67925AC413400B1CC8D /* MovieRow.swift */,
 			);
 			path = p1;
 			sourceTree = "<group>";
@@ -78,6 +194,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		4910C68425AC51BD00B1CC8D /* widgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4910C69725AC51C000B1CC8D /* Build configuration list for PBXNativeTarget "widgetExtension" */;
+			buildPhases = (
+				4910C68125AC51BD00B1CC8D /* Sources */,
+				4910C68225AC51BD00B1CC8D /* Frameworks */,
+				4910C68325AC51BD00B1CC8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = widgetExtension;
+			productName = widgetExtension;
+			productReference = 4910C68525AC51BD00B1CC8D /* widgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		49BD52D025A8A25100569A52 /* p1 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 49BD52E525A8A25400569A52 /* Build configuration list for PBXNativeTarget "p1" */;
@@ -85,12 +218,17 @@
 				49BD52CD25A8A25100569A52 /* Sources */,
 				49BD52CE25A8A25100569A52 /* Frameworks */,
 				49BD52CF25A8A25100569A52 /* Resources */,
+				4910C69A25AC51C000B1CC8D /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				4910C69525AC51C000B1CC8D /* PBXTargetDependency */,
 			);
 			name = p1;
+			packageProductDependencies = (
+				4910C66825AC2FC900B1CC8D /* Kingfisher */,
+			);
 			productName = p1;
 			productReference = 49BD52D125A8A25100569A52 /* p1.app */;
 			productType = "com.apple.product-type.application";
@@ -104,6 +242,9 @@
 				LastSwiftUpdateCheck = 1230;
 				LastUpgradeCheck = 1230;
 				TargetAttributes = {
+					4910C68425AC51BD00B1CC8D = {
+						CreatedOnToolsVersion = 12.3;
+					};
 					49BD52D025A8A25100569A52 = {
 						CreatedOnToolsVersion = 12.3;
 					};
@@ -118,21 +259,34 @@
 				Base,
 			);
 			mainGroup = 49BD52C825A8A25100569A52;
+			packageReferences = (
+				4910C66725AC2FC900B1CC8D /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 49BD52D225A8A25100569A52 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				49BD52D025A8A25100569A52 /* p1 */,
+				4910C68425AC51BD00B1CC8D /* widgetExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		4910C68325AC51BD00B1CC8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4910C69025AC51C000B1CC8D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		49BD52CF25A8A25100569A52 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				49BD52DC25A8A25400569A52 /* Preview Assets.xcassets in Resources */,
+				4931826625A9E5F800E67750 /* Shake It Off.mp3 in Resources */,
 				49BD52D925A8A25400569A52 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,20 +294,89 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		4910C68125AC51BD00B1CC8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4910C69225AC51C000B1CC8D /* widget.intentdefinition in Sources */,
+				4910C68D25AC51BD00B1CC8D /* widget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		49BD52CD25A8A25100569A52 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4931826E25A9F83400E67750 /* PlayerView.swift in Sources */,
+				4910C67325AC3DB500B1CC8D /* MovieView.swift in Sources */,
 				49BD52E125A8A25400569A52 /* p1.xcdatamodeld in Sources */,
+				4931825C25A9D06F00E67750 /* MusicContent.swift in Sources */,
+				4910C69325AC51C000B1CC8D /* widget.intentdefinition in Sources */,
+				4931825925A9CD3C00E67750 /* SongRow.swift in Sources */,
+				4910C66025AC26E500B1CC8D /* SingerView.swift in Sources */,
 				49BD52DE25A8A25400569A52 /* Persistence.swift in Sources */,
+				49BD52EA25A8A40100569A52 /* SongView.swift in Sources */,
+				4910C67E25AC4A8A00B1CC8D /* MovieContent.swift in Sources */,
 				49BD52D725A8A25100569A52 /* ContentView.swift in Sources */,
+				4931826B25A9F40C00E67750 /* WebView.swift in Sources */,
+				4910C67725AC3EF200B1CC8D /* MovieResult.swift in Sources */,
+				4910C67A25AC413400B1CC8D /* MovieRow.swift in Sources */,
 				49BD52D525A8A25100569A52 /* p1App.swift in Sources */,
+				49BD52EE25A8A5B400569A52 /* SongResult.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		4910C69525AC51C000B1CC8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4910C68425AC51BD00B1CC8D /* widgetExtension */;
+			targetProxy = 4910C69425AC51C000B1CC8D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		4910C69825AC51C000B1CC8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = widget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = q1.p1.widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4910C69925AC51C000B1CC8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = widget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = q1.p1.widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		49BD52E325A8A25400569A52 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -273,6 +496,7 @@
 		49BD52E625A8A25400569A52 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -294,6 +518,7 @@
 		49BD52E725A8A25400569A52 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -315,6 +540,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		4910C69725AC51C000B1CC8D /* Build configuration list for PBXNativeTarget "widgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4910C69825AC51C000B1CC8D /* Debug */,
+				4910C69925AC51C000B1CC8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		49BD52CC25A8A25100569A52 /* Build configuration list for PBXProject "p1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -334,6 +568,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4910C66725AC2FC900B1CC8D /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4910C66825AC2FC900B1CC8D /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4910C66725AC2FC900B1CC8D /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		49BD52DF25A8A25400569A52 /* p1.xcdatamodeld */ = {
